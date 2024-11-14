@@ -1,7 +1,3 @@
-class FoodApp:
-
-    @staticmethod
-    def Init():
-        print("Welcome to the Online Food Ordering")
+from FoodApp import FoodApp
 
 FoodApp.Init()
