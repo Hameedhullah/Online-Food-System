@@ -1,10 +1,17 @@
+from Models.User import User
+
 class LoginSystem:
     
     def Login(self):
         pass
 
     def Register(self):
-        pass
+        
+        Name = input("Name : ")
+        MobileNo. = int(input("Mobile No : "))
+        MailId = input("Email Id : ")
+        Password  = input("Password : ")
+
     
     def GuestLogin(self):
         pass
